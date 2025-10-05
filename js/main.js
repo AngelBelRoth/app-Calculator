@@ -1,6 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
-
-  const display = document.getElementById("display");
+ const display = document.getElementById("display");
 
   function appendToDisplay(input) {
     display.value += input;
@@ -18,4 +16,3 @@ document.addEventListener('DOMContentLoaded', () => {
       display.value = "Error";
     }
   }
-})
